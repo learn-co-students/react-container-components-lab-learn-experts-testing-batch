@@ -1,6 +1,8 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 
+import fetch from 'whatwg-fetch'
+
 const LatestMovieReviewsContainer = require(
   './components/LatestMovieReviewsContainer'
 );
